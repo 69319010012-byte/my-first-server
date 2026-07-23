@@ -284,11 +284,11 @@ setInterval(createBalloon,700);
 
 // เปิด Server
 server.listen(PORT, () => {
-    console.log(\`
-=====================================
- Server Running Successfully
-=====================================
-URL : http://localhost:\${PORT}
-=====================================
-\`);
+    console.log(
+        "=====================================\n" +
+        " Server Running Successfully\n" +
+        "=====================================\n" +
+        "URL : http://localhost:" + PORT + "\n" +
+        "=====================================\n"
+    );
 });
